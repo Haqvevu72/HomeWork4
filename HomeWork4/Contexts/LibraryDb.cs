@@ -11,14 +11,14 @@ namespace HomeWork4.Contexts
 
             base.OnConfiguring(optionsBuilder);
         }
-        DbSet<Author> Authors { get; set; }
+        public DbSet<Author> Authors { get; set; }
 
-        DbSet<Book> Books { get; set; }
+        public DbSet<Book> Books { get; set; }
 
-        DbSet<BookType> BookTypes { get; set; }
+        public DbSet<BookType> BookTypes { get; set; }
 
-        DbSet<Operation> Operations { get; set; }
+        public DbSet<Operation> Operations { get; set; }
 
-        DbSet<Student> Students { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
